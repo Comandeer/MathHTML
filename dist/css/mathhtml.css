@@ -1,0 +1,32 @@
+.fraction {
+	position: relative;
+	font-size: .5em;
+	height: 2em;
+	overflow: hidden;
+	line-height: 1em;
+	display: inline-block;
+	vertical-align: text-top;   
+}
+.vinculum {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	left: 0;
+	height: 0;
+	overflow: hidden;
+	border-top: 1px solid #000;
+	margin-top: -1px;
+}
+.numerator,
+.denominator {
+	display: block;   
+}
+.bracket {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	opacity: 0;
+	position: absolute;
+	left: -1px;
+	top: -1px;   
+}
